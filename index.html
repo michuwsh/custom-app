@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/app.css">
+</head>
+<body>
+    <div class="container">
+        <div class="slider">
+            <div class="slider__menu">
+                <div class="slider__menu-box">
+                    <div data-id="0" class="slider__menu-box-item slider__menu-box-item--active">Slide 1</div>
+                </div>
+                <div title="Dodaj nowy slider" class="slider__add-new-slide"></div>
+            </div>
+            <div class="slider__content">
+                <div slide-id="0" class="slider__content-item slider__content-item--active">
+                    <h1 class="slider__content-item-h1">
+                        Test 1
+                    </h1>
+                    <p class="slider__content_item-p">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id exercitationem aliquid suscipit et ipsum pariatur animi, provident at dolor repudiandae quidem ab iste dignissimos sit, quia omnis? Eos, ullam cum!
+                    </p>
+                    <span onclick="removeSlide(0)" class="slider__content-item-remove"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/app.js"></script>
+</body>
+</html>
